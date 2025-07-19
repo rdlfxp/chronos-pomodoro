@@ -1,4 +1,5 @@
-import { Heading } from './components/Heading.tsx';
+import { Heading } from './components/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
 import { TimerIcon } from 'lucide-react';
@@ -18,6 +19,29 @@ export function App() {
         laudantium voluptas praesentium labore dolore unde! Aliquam, dolorem! A,
         quia rerum!
       </p>
+      <div className='container'>
+        <div className='content'>
+          <section>LOGO</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>MENU</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>FORM</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>FOOTER</section>
+        </div>
+      </div>
     </>
   );
 }
